@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            customer form
+        </title>
+    </head>
+    <body style="background-color: pink;">
+        <center>
+            <form name="custform" action="thanku.html" method="POST">
+        <h1>CUSTOMER REGISTRATION</h1>
+        USER NAME:<input type="text" value="" placeholder="enter your name" maxlength="15" required="required"><br><br>
+        PASSWORD:<input type="password" value="" placeholder="entre your password" required min="8" max="16"><br><br>
+        EMAIL:<input type="email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="enter email id" required><br><br>
+        GENDER:<input  type="radio" value="male" name="gender">male
+        <input type="radio" value="female" name="gender">female
+        <input type="radio" value="other" name="gender">Other<br><br>
+        AGE:<input type="number" min="21" max="60" placeholder="enter age in yr"><br><br>
+        ADDRESS:<textarea rows="4"col="5"></textarea><br><br>
+        COMPANY WEBSITE:<input type="url" required><br><br>
+        <label>choose country</label>
+        <select>
+            <option>india</option>
+            <option>united state</option>
+            <option>france</option>
+            <option>germany</option>
+    </select><br><br>
+    DATE OF JOURNEY<input type="date" value="" min="5/6/2021"><br><br>
+    <button type="submit" >submit</button>&nbsp;
+    <button type="reset">reset</button><br>
+</form>
+    </center>
+    </body>
+</html>
